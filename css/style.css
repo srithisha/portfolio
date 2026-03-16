@@ -1,0 +1,88 @@
+body{
+font-family:Arial;
+margin:0;
+background:#0f172a;
+color:rgb(253, 253, 253);
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#020617;
+}
+
+nav a{
+color:rgb(247, 242, 242);
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:100px 10%;
+}
+
+.hero-img{
+width:250px;
+border-radius:50%;
+}
+
+.btn{
+background:#6366f1;
+padding:10px 20px;
+color:rgb(253, 251, 251);
+text-decoration:none;
+border-radius:6px;
+}
+
+.btn-outline{
+border:1px solid white;
+padding:10px 20px;
+text-decoration:none;
+color:rgb(252, 248, 248);
+}
+
+.skills{
+padding:60px 10%;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+text-align:center;
+border-radius:6px;
+}
+
+.projects-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px 10%;
+}
+
+.project-card{
+background:#1e293b;
+padding:20px;
+border-radius:8px;
+}
+
+.contact{
+padding:60px 10%;
+}
+
+input, textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:5px;
+}
